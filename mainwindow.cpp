@@ -15,6 +15,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    ui->widget->initializeGL();
-    ui->widget->update();
+    ui->widget->addNewLines();
+  ui->widget->initializeGL();
+  ui->widget->update();
 }
